@@ -1,8 +1,8 @@
 ![image]("https://github.com/blackmathx/image_1.png")
 ![image]("https://github.com/blackmathx/image_2.2.png")
 
-<img src="https://github.com/blackmathx/blackmathx/image_1.png" alt="screenshot"/>
-<img src="https://github.com/blackmathx/blackmathx/image_2.png" alt="screenshot"/>
+<img src="github.com/blackmathx/blackmathx/image_1.png" alt="screenshot"/>
+<img src="github.com/blackmathx/blackmathx/image_2.png" alt="screenshot"/>
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
