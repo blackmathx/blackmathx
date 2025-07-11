@@ -14,7 +14,7 @@ export default function HomePage() {
 						06-11-2025
 					</span>
 					<div className="flex-grow">
-						<a href="github.com/blackmathx" target="_blank">
+						<a href="https://github.com/blackmathx" target="_blank">
 							<div className="font-semibold mb-0 text-base">Github Profile</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
