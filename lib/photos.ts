@@ -73,4 +73,22 @@ export const photos = [
 		alt: "drone",
 		tags: ["Zippies"],
 	},
+		{
+		id: "iu-library",
+		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/iu_library_202507.jpg",
+		alt: "IU",
+		tags: ["IULibrary", "Summer2025"],
+	},
+		{
+		id: "iu-fountain",
+		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/iu_fountain_202507.jpg",
+		alt: "IU",
+		tags: ["IUFountain", "Summer2025"],
+	},
+		{
+		id: "indy-downtown",
+		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/indianapolis.jpg",
+		alt: "Indianapolis",
+		tags: ["Indy"],
+	},
 ]
