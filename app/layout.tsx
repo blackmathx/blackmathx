@@ -48,6 +48,7 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 
 							{/* Navigation Links (Desktop) */}
 							<nav className="hidden md:flex  space-x-12 xl:space-x-24 text-gray-700">
+								<Link href="https://github.com/blackmathx/blackmathx" className="hover:text-blue-600 p-1">GitHub</Link>
 								<Link href="/photos" className="hover:text-blue-600 p-1">Photos</Link>
 								<Link href="/rss-feed" className="hover:text-blue-600 p-1">RSS Feed</Link>
 								<Link href="/links" className="hover:text-blue-600 p-1">Links</Link>
@@ -71,6 +72,7 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 						{/* Mobile Menu */}
 						<div id="mobile-menu" className="md:hidden hidden flex-col space-y-2 pb-4">
 							{/* <Link href="/about" className="block text-gray-700 hover:text-blue-600">About</Link> */}
+							<Link href="https://github.com/blackmathx/blackmathx" className="block text-gray-700 hover:text-blue-600">GitHub</Link>
 							<Link href="/photos" className="block text-gray-700 hover:text-blue-600">Photos</Link>
 							<Link href="/rss-feed" className="block text-gray-700 hover:text-blue-600">RSS Feed</Link>
 							<Link href="/links" className="block text-gray-700 hover:text-blue-600">Links</Link>
