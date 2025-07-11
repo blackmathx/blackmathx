@@ -48,9 +48,9 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 
 							{/* Navigation Links (Desktop) */}
 							<nav className="hidden md:flex  space-x-12 xl:space-x-24 text-gray-700">
-								{/* <Link href="/about" className="hover:text-blue-600 p-1">About</Link> */}
 								<Link href="/photos" className="hover:text-blue-600 p-1">Photos</Link>
-								{/* <Link href="/blog" className="hover:text-blue-600 p-1">Blog</Link> */}
+								<Link href="/rss-feed" className="hover:text-blue-600 p-1">RSS Feed</Link>
+								<Link href="/links" className="hover:text-blue-600 p-1">Links</Link>
 								{(user) &&
 									<>
 										<Link href="/dashboard" className="hover:text-blue-600 p-1">Dashboard</Link>
@@ -72,7 +72,8 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 						<div id="mobile-menu" className="md:hidden hidden flex-col space-y-2 pb-4">
 							{/* <Link href="/about" className="block text-gray-700 hover:text-blue-600">About</Link> */}
 							<Link href="/photos" className="block text-gray-700 hover:text-blue-600">Photos</Link>
-							{/* <Link href="/blog" className="block text-gray-700 hover:text-blue-600">Blog</Link> */}
+							<Link href="/rss-feed" className="block text-gray-700 hover:text-blue-600">RSS Feed</Link>
+							<Link href="/links" className="block text-gray-700 hover:text-blue-600">Links</Link>
 							{(user) &&
 								<>
 									<Link href="/dashboard" className="block text-gray-700 hover:text-blue-600">Dashboard</Link>
