@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
-// import Image from "next/image";
-// import ProfileImage from "@/public/images/profile.png"
+import Image from "next/image";
+import ProfileImage from "@/public/images/profile.png"
 import SignOut from "@/components/SignOut";
 import { getUser } from "@/lib/supabase/server";
 
@@ -28,7 +28,7 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 						<div className="flex justify-between items-center py-4">
 							{/* Logo / Title */}
 							<div className="flex items-center">
-								{/* <Image priority={false} className="rounded-full xl:w-16 xl:h-16 w-12 h-12" src={ProfileImage} alt="" /> */}
+								<Image priority={false} className="rounded-full xl:w-16 xl:h-16 w-12 h-12" src={ProfileImage} alt="" />
 								<Link className="text-2xl text-gray-800 pl-4" href="/">blackmathx</Link>
 							</div>
 
