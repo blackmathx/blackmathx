@@ -9,11 +9,11 @@ import Head from "next/head";
 
 
 const FeedSection = ({ title, items }: { title: string; items: FeedItem[] }) => (
-	<div className="border border-gray-300 m-2 p-2">
+	<div className="border border-gray-300 dark:border-gray-700 m-2 p-2">
 		<div className="font-semibold mt-0">{title}</div>
 		<div>
 			{items.map((item, index) => (
-				<div key={index} className="my-1.5 py-0.5 hover:text-slate-600 border-b border-gray-200">
+				<div key={index} className="my-1.5 py-0.5 hover:text-slate-600 border-b border-gray-200 dark:border-gray-700">
 					<a href={item.link} target="_blank" rel="noopener noreferrer">
 						{item.title}
 					</a>
@@ -52,7 +52,7 @@ export default function RssFeed() {
 				<meta name="robots" content="noindex, nofollow" />
 			</Head>
 
-				<section className="w-full md:w-3/4 xl:w-4/5 bg-white p-4 rounded shadow">
+				<section className="w-full md:w-3/4 xl:w-4/5 p-4 rounded shadow">
 					<div className="text-2xl font-semibold mb-4">RSS Feed</div>
 					<div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
 						{(!rssFeed) ? <p>Loading RSS feeds...</p> :

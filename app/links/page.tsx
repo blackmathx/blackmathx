@@ -17,7 +17,7 @@ const LinksPage = () => {
 							<ul className="space-y-2">
 								{techNews.map((link) => (
 									<li key={link.title}>
-										<a href={link.href} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+										<a href={link.href} target="_blank" rel="noopener noreferrer">
 											{link.title}
 										</a>
 									</li>
@@ -29,7 +29,7 @@ const LinksPage = () => {
 							<ul className="space-y-2">
 								{news.map((link) => (
 									<li key={link.title}>
-										<a href={link.href} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+										<a href={link.href} target="_blank" rel="noopener noreferrer">
 											{link.title}
 										</a>
 									</li>
@@ -45,7 +45,7 @@ const LinksPage = () => {
 							<ul className="space-y-2">
 								{personalBlogs.map((link) => (
 									<li key={link.title}>
-										<a href={link.href} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+										<a href={link.href} target="_blank" rel="noopener noreferrer">
 											{link.title}
 										</a>
 									</li>
@@ -57,7 +57,7 @@ const LinksPage = () => {
 							<ul className="space-y-2">
 								{techBlogs.map((link) => (
 									<li key={link.title}>
-										<a href={link.href} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+										<a href={link.href} target="_blank" rel="noopener noreferrer">
 											{link.title}
 										</a>
 									</li>

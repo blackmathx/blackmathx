@@ -26,11 +26,13 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 				<header className="shadow">
 					<div className="2xl:max-w-[1900px] xl:max-w-[90%] w-full mx-auto px-4 sm:px-6 lg:px-16">
 						<div className="flex justify-between items-center py-4">
+
 							{/* Logo / Title */}
 							<div className="flex items-center">
 								<Image priority={false} className="rounded-full xl:w-16 xl:h-16 w-12 h-12" src={ProfileImage} alt="" />
-								<Link className="text-2xl text-gray-800 pl-4" href="/">blackmathx</Link>
+								<Link className="text-2xl !text-gray-700 dark:!text-gray-300 pl-4" href="/">blackmathx</Link>
 							</div>
+
 
 							{/* Menu Button (Mobile) */}
 							<div className="md:hidden">
@@ -48,19 +50,19 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 
 							{/* Navigation Links (Desktop) */}
 							<nav className="hidden md:flex  space-x-12 xl:space-x-24 text-gray-700">
-								<a href="https://github.com/blackmathx" target="_blank" className="hover:text-blue-600 p-1">GitHub</a>
-								<Link href="/photos" className="hover:text-blue-600 p-1">Photos</Link>
-								<Link href="/rss-feed" className="hover:text-blue-600 p-1">RSS Feed</Link>
-								<Link href="/links" className="hover:text-blue-600 p-1">Links</Link>
+								<a href="https://github.com/blackmathx" target="_blank" className="!text-gray-700 dark:!text-gray-300 p-1">GitHub</a>
+								<Link href="/photos" className="!text-gray-700 dark:!text-gray-300 p-1">Photos</Link>
+								<Link href="/rss-feed" className="!text-gray-700 dark:!text-gray-300 p-1">RSS Feed</Link>
+								<Link href="/links" className="!text-gray-700 dark:!text-gray-300 p-1">Links</Link>
 								{(user) &&
 									<>
-										<Link href="/dashboard" className="hover:text-blue-600 p-1">Dashboard</Link>
+										<Link href="/dashboard" className="!text-gray-700 dark:!text-gray-300 p-1">Dashboard</Link>
 										<SignOut type="desktop" />
 									</>
 								}
 								{(!user) &&
 									<>
-										<Link href="/login" className="flex-1 bg-slate-500 hover:bg-blue-700 text-white py-1 px-3 rounded transition-colors">Sign In</Link>
+										<Link href="/login" className="flex-1 !text-white bg-slate-500 py-1 px-3 rounded transition-colors">Sign In</Link>
 
 									</>
 								}
@@ -71,21 +73,21 @@ export default async function RootLayout({ children, }: Readonly<{ children: Rea
 
 						{/* Mobile Menu */}
 						<div id="mobile-menu" className="md:hidden hidden flex-col space-y-2 pb-4">
-							{/* <Link href="/about" className="block text-gray-700 hover:text-blue-600">About</Link> */}
-							<a href="https://github.com/blackmathx" target="_blank" className="block text-gray-700 hover:text-blue-600">GitHub</a>
-							<Link href="/photos" className="block text-gray-700 hover:text-blue-600">Photos</Link>
-							<Link href="/rss-feed" className="block text-gray-700 hover:text-blue-600">RSS Feed</Link>
-							<Link href="/links" className="block text-gray-700 hover:text-blue-600">Links</Link>
+							{/* <Link href="/about" className="block text-gray-700">About</Link> */}
+							<a href="https://github.com/blackmathx" target="_blank" className="block">GitHub</a>
+							<Link href="/photos" className="block">Photos</Link>
+							<Link href="/rss-feed" className="block">RSS Feed</Link>
+							<Link href="/links" className="block">Links</Link>
 							{(user) &&
 								<>
-									<Link href="/dashboard" className="block text-gray-700 hover:text-blue-600">Dashboard</Link>
+									<Link href="/dashboard" className="block">Dashboard</Link>
 									<SignOut type="mobile" />
 								</>
 
 							}
 							{(!user) &&
 								<>
-									<Link href="/login" className="block text-gray-700 hover:text-blue-600">Sign In</Link>
+									<Link href="/login" className="block">Sign In</Link>
 
 								</>
 							}
