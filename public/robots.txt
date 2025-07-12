@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /login
+Disallow: /photos
+Disallow: /links
+Disallow: /rss-feed
+
+Disallow: *s3.amazonaws.com*
+
+Allow: /
+

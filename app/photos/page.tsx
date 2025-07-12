@@ -1,19 +1,23 @@
 'use client'
 
+import Head from 'next/head';
 import Image from "next/image";
 import React, { useState } from "react";
 import { photos } from "@/lib/photos";
 
-export default function Photos(){
+export default function Photos() {
 	const [selectedPhoto, setSelectedPhoto] = useState<{ id: string; url: string; alt: string; tags?: string[] } | null>(null);
-		
+
 	return (
 		<>
+			<Head>
+				<meta name="robots" content="noindex, nofollow" />
+			</Head>
 			<main className="sm:mx-auto max-w-[1960px] md:p-4">
 				<div className="columns-2 gap-1 md:gap-4 sm:columns-3 xl:columns-4 2xl:columns-6">
 
 					{/* Map through the imageUrls and create a link for each one */}
-					{ photos.slice().reverse().map(({ id, url, alt, tags }) => (
+					{photos.slice().reverse().map(({ id, url, alt, tags }) => (
 						<button
 							key={id}
 							onClick={() => setSelectedPhoto({ id, url, alt, tags })}
@@ -48,11 +52,11 @@ export default function Photos(){
 
 			{/* Modal Overlay */}
 			{selectedPhoto && (
-				<div 
+				<div
 					className="fixed inset-0 bg-black bg-opacity-90 backdrop-blur-sm z-50 flex items-center justify-center p-4"
 					onClick={() => setSelectedPhoto(null)}
 				>
-					<div 
+					<div
 						className="relative max-w-4xl max-h-[90vh] overflow-hidden rounded-lg"
 						onClick={(e) => e.stopPropagation()}
 					>

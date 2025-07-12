@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { getRssFeeds } from "@/lib/utils/fetchFeeds";
 
 import { FeedItem } from "@/lib/utils/feedProcessor";
+import Head from "next/head";
 
 
 
@@ -47,7 +48,9 @@ export default function RssFeed() {
 
 	return (
 		<>
-
+			<Head>
+				<meta name="robots" content="noindex, nofollow" />
+			</Head>
 
 				<section className="w-full md:w-3/4 xl:w-4/5 bg-white p-4 rounded shadow">
 					<div className="text-2xl font-semibold mb-4">RSS Feed</div>

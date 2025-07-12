@@ -7,8 +7,6 @@ export default function HomePage() {
 	return (
 		<>
 			<div className="w-[70%] m-auto">
-
-
 				<div className="flex items-start p-2">
 					<span className="text-gray-500 text-sm mb-0 pr-2 pt-1 whitespace-nowrap min-w-[90px]">
 						06-11-2025
@@ -23,8 +21,6 @@ export default function HomePage() {
 						</div> */}
 					</div>
 				</div >
-
-
 				<div className="flex items-start p-2">
 					<span className="text-gray-500 text-sm mb-0 pr-2 pt-1 whitespace-nowrap min-w-[90px]">
 						06-11-2025
@@ -39,23 +35,6 @@ export default function HomePage() {
 						</div> */}
 					</div>
 				</div >
-
-				<div className="flex items-start p-2">
-					<span className="text-gray-500 text-sm mb-0 pr-2 pt-1 whitespace-nowrap min-w-[90px]">
-						06-10-2025
-					</span>
-					<div className="flex-grow">
-						<a href="https://blackmathx.com" target="_blank">
-							<div className="font-semibold mb-0 text-base">blackmathx.com</div>
-						</a>
-						<div className="text-gray-600 text-sm mb-2">(blackmathx.com)</div>
-						{/* <div>
-							Blackmathx.com Website
-						</div> */}
-					</div>
-				</div >
-
-
 				<div className="flex items-start p-2">
 					<span className="text-gray-500 text-sm mb-0 pr-2 pt-1 whitespace-nowrap min-w-[90px]">
 						06-10-2025
@@ -68,7 +47,6 @@ export default function HomePage() {
 						{/* <div>
 							Personal Python language reference on github.com
 						</div> */}
-
 					</div>
 				</div >
 				<div className="flex items-start p-2">
@@ -83,7 +61,6 @@ export default function HomePage() {
 						{/* <div>
 							Personal C# language reference on github
 						</div> */}
-
 					</div>
 				</div >
 				<div className="flex items-start p-2">
@@ -98,11 +75,8 @@ export default function HomePage() {
 						{/* <div>
 							Personal Java language reference on github.com
 						</div> */}
-
 					</div>
 				</div >
-
-
 				<div className="flex items-start p-2">
 					<span className="text-gray-500 text-sm mb-0 pr-2 pt-1 whitespace-nowrap min-w-[90px]">
 						06-10-2025
@@ -117,15 +91,7 @@ export default function HomePage() {
 						</div> */}
 					</div>
 				</div >
-
-
 			</div>
-
-
-
-
-
-
 		</>
 	)
 }
