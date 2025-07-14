@@ -21,7 +21,7 @@ const GithubPage = () => {
 
 	if (!profile || !showProfile) {
 		return (
-			<main className="flex justify-center text-gray-300">
+			<main className="flex justify-center text-gray-700 dark:text-gray-300">
 				<p className="p-6 py-16 rounded-2xl shadow-2xl text-center w-full max-w-sm text-lg">Loading...</p>
 			</main>
 		);
