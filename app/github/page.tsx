@@ -30,7 +30,7 @@ const GithubPage = () => {
 	return (
 		<main className="flex justify-center">
 			<div className="bg-white p-6 rounded-2xl shadow-2xl text-center w-full max-w-[700px]">
-				<h1 className="text-2xl font-bold mb-4">Github.com</h1>
+				<h1 className="text-2xl font-bold mb-4">Github User Info</h1>
 				<hr className="py-2"/>
 				<img
 					src={profile.avatar_url}
