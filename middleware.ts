@@ -62,6 +62,7 @@ export async function updateSession(request: NextRequest) {
 
 		// allow access without login
 		request.nextUrl.pathname !== '/' &&
+		request.nextUrl.pathname !== '/github' &&
 		request.nextUrl.pathname !== '/photos' &&
 		!request.nextUrl.pathname.startsWith('/photos/') &&
 		request.nextUrl.pathname !== '/rss-feed' &&
