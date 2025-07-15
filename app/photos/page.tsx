@@ -15,7 +15,7 @@ export default function Photos() {
 			</Head>
 			<main className="sm:mx-auto max-w-[1960px] md:p-4">
 				<div className="columns-2 gap-1 md:gap-4 sm:columns-3 xl:columns-4 2xl:columns-6">
-
+					<h1>Temporarily Unavailable</h1>
 					{/* Map through the imageUrls and create a link for each one */}
 					{photos.slice().reverse().map(({ id, url, alt, tags }) => (
 						<button

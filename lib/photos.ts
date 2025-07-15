@@ -1,5 +1,7 @@
 
-export const photos = [
+export const photos = [];
+
+export const photosx = [
 
 	{
 		id: "xmas-tree",
