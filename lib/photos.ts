@@ -1,5 +1,12 @@
 
-export const photos = [];
+export const photos = [
+		{
+		id: "default",
+		url: "",
+		alt: "unavailable",
+		tags: ["n/a"],
+	}
+];
 
 export const photosx = [
 
