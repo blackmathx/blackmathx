@@ -5,4 +5,4 @@
 
 <br/>
 
-NextJS, Tailwind, TypeScript, Vercel, Supabase, AWS S3
+NextJS, Tailwind, TypeScript, Vercel, Supabase
