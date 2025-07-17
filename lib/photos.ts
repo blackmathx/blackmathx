@@ -1,102 +1,100 @@
-
-export const photos = [
+export const photosx = [
 		{
 		id: "default",
-		url: "",
+		image: "",
 		alt: "unavailable",
 		tags: ["n/a"],
 	}
 ];
 
-export const photosx = [
-
+export const photos = [
 	{
 		id: "xmas-tree",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/xmas-tree.jpg",
+		image: "/blackmathx-images/xmas-tree.jpg",
 		alt: "xmas-tree",
 		tags: ["ChristmasTree", "Holiday", "2024"],
 	},
 	{
 		id: "trail-runners",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/trail-runners.jpg",
+		image: "/blackmathx-images/trail-runners.jpg",
 		alt: "trail-runners",
 		tags: ["TrailRunning", "Outdoors", "2019"],
 	},
 	{
 		id: "lian-li-q58",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/lian-li-q58.jpg",
+		image: "/blackmathx-images/lian-li-q58.jpg",
 		alt: "lian-li-q58",
 		tags: ["ComputerBuild", "2021"],
 	},
 	{
 		id: "lian-li-q58-a",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/lian-li-q58-a.jpg",
+		image: "/blackmathx-images/lian-li-q58-a.jpg",
 		alt: "lian-li-q58-a",
 		tags: ["ComputerBuild", "2021"],
 	},
 	{
 		id: "lian-li-q58-3",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/lian-li-q58-3.jpg",
+		image: "/blackmathx-images/lian-li-q58-3.jpg",
 		alt: "breadboard-6502",
 		tags: ["ComputerBuild", "2021"],
 	},
 	{
 		id: "breadboard-6502",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/breadboard-6502.jpg",
+		image: "/blackmathx-images/breadboard-6502.jpg",
 		alt: "breadboard-6502", 
 		tags: ["Breadboard", "6502"],
 	},
 		{
 		id: "breadboard-6502-c",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/breadboard-6502-c.jpg",
+		image: "/blackmathx-images/breadboard-6502-c.jpg",
 		alt: "breadboard-6502",
 		tags: ["Breadboard", "6502"],
 	},
 			{
 		id: "coffee-pot",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/coffee-pot.jpg",
+		image: "/blackmathx-images/coffee-pot.jpg",
 		alt: "coffee-pot",
 		tags: ["MrCoffee", "CoffeePot"],
 	},
 		{
 		id: "oscilliscope",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/oscilliscope.jpg",
+		image: "/blackmathx-images/oscilliscope.jpg",
 		alt: "oscilloscope",
 		tags: ["Oscilloscope", "Electronics"],
 	},
 			{
 		id: "commodore-64-a",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/commodore-64-a.jpg",
+		image: "/blackmathx-images/commodore-64-a.jpg",
 		alt: "commodore 64",
 		tags: ["Commodore64", "Retro"],
 	},
 		{
 		id: "commodore-64-b",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/commodore-64-b.jpg",
+		image: "/blackmathx-images/commodore-64-b.jpg",
 		alt: "commodore 64",
 		tags: ["Commodore64", "Retro"],
 	},
 		{
 		id: "zippies",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/zippies.jpg",
+		image: "/blackmathx-images/zippies.jpg",
 		alt: "drone",
 		tags: ["Zippies"],
 	},
 		{
 		id: "iu-library",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/iu_library_202507.jpg",
+		image: "/blackmathx-images/iu_library_202507.jpg",
 		alt: "IU",
 		tags: ["IULibrary", "Summer2025"],
 	},
 		{
 		id: "iu-fountain",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/iu_fountain_202507.jpg",
+		image: "/blackmathx-images/iu_fountain_202507.jpg",
 		alt: "IU",
 		tags: ["IUFountain", "Summer2025"],
 	},
 		{
 		id: "indy-downtown",
-		url: "https://blackmathx-photos.s3.us-east-2.amazonaws.com/indianapolis.jpg",
+		image: "/blackmathx-images/indianapolis.jpg",
 		alt: "Indianapolis",
 		tags: ["Indy"],
 	},

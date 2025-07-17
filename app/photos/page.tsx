@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { photos } from "@/lib/photos";
 
 export default function Photos() {
-	const [selectedPhoto, setSelectedPhoto] = useState<{ id: string; url: string; alt: string; tags?: string[] } | null>(null);
+	const [selectedPhoto, setSelectedPhoto] = useState<{ id: string; image: string; alt: string; tags?: string[] } | null>(null);
 
 	return (
 		<>
@@ -15,12 +15,12 @@ export default function Photos() {
 			</Head>
 			<main className="sm:mx-auto max-w-[1960px] md:p-4">
 				<div className="columns-2 gap-1 md:gap-4 sm:columns-3 xl:columns-4 2xl:columns-6">
-					<h1>Temporarily Unavailable</h1>
+
 					{/* Map through the imageUrls and create a link for each one */}
-					{photos.slice().reverse().map(({ id, url, alt, tags }) => (
+					{photos.slice().reverse().map(({ id, image, alt, tags }) => (
 						<button
 							key={id}
-							onClick={() => setSelectedPhoto({ id, url, alt, tags })}
+							onClick={() => setSelectedPhoto({ id, image, alt, tags })}
 							className="after:content group relative mb-1 sm:mb-5 block w-full after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
 						>
 							<div className="relative w-full">
@@ -28,7 +28,7 @@ export default function Photos() {
 									alt={alt}
 									className="transform lg:rounded-lg rounded-sm brightness-90 transition will-change-auto group-hover:brightness-100"
 									style={{ transform: "translate3d(0, 0, 0)" }}
-									src={url}
+									src={image}
 									width={720}
 									height={480}
 									sizes="(max-width: 640px) 100vw,
@@ -69,7 +69,7 @@ export default function Photos() {
 						<Image
 							alt={selectedPhoto.alt}
 							className="w-full h-auto max-h-[90vh] object-contain"
-							src={selectedPhoto.url}
+							src={selectedPhoto.image}
 							width={1200}
 							height={800}
 							sizes="90vw"
