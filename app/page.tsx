@@ -1,12 +1,33 @@
 
-import React from "react";
+'use client'
+import React, { useState } from "react";
 
 
 export default function HomePage() {
+	const [showKey, setShowKey] = useState(false);
+	const handleToggleKey = () => setShowKey((prev) => !prev);
 
 	return (
 		<>
-			<div className="w-[70%] m-auto">
+			<div className="xl:w-[60%] w-[70%] m-auto">
+				<div className="font-[Garamond,serif] text-lg">
+					<p className="mb-3">
+						Programmer, Gamer, Musician, and Cook. Aspiring COBOL programmer purely for the fun of it. 
+					</p>
+					<p className="mb-3">
+						I am available in the Midwest and
+						Southeast United States after a recent layoff, and would be happy to relocate as required.
+						There are no comments on the website yet but feel free to send a message
+						by email at blackmathx at proton.me.
+					</p>
+					<p className="mb-3">
+						I studied Mathematics, Computer Science, and German at Indiana University. 
+						At Indiana University, my coursework focused heavily on mathematical models. 
+						Highlights of mathematical models include stochastic processes, queueing 
+						theory, Markov chains, inventory models, and models of financial derivatives. 
+						My degree has taught me to be meticulous and detail oriented.
+					</p>
+				</div>
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx" target="_blank">
@@ -26,7 +47,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/python-reference" target="_blank">
-							<div className="font-semibold mb-0 text-base">Personal Python Reference at Github</div>
+							<div className="font-semibold mb-0 text-base">Python Reference at Github</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
@@ -34,7 +55,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/csharp-reference" target="_blank">
-							<div className="font-semibold mb-0 text-base">Personal C# Reference at Github</div>
+							<div className="font-semibold mb-0 text-base">C# Reference at Github</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
@@ -42,7 +63,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/java-reference" target="_blank">
-							<div className="font-semibold mb-0 text-base">Personal Java Reference at Github</div>
+							<div className="font-semibold mb-0 text-base">Java Reference at Github</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>

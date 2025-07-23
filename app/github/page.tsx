@@ -15,7 +15,7 @@ const GithubPage = () => {
 			.then(res => res.json())
 			.then((data: GithubProfile) => {
 				setProfile(data);
-				setTimeout(() => setShowProfile(true), 400);
+				setTimeout(() => setShowProfile(true), 300);
 			});
 	}, []);
 
