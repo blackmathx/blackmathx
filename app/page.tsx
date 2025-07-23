@@ -1,11 +1,9 @@
 
 'use client'
-import React, { useState } from "react";
+import React from "react";
 
 
 export default function HomePage() {
-	const [showKey, setShowKey] = useState(false);
-	const handleToggleKey = () => setShowKey((prev) => !prev);
 
 	return (
 		<>
@@ -28,6 +26,16 @@ export default function HomePage() {
 						My degree has taught me to be meticulous and detail oriented.
 					</p>
 				</div>
+				
+
+				<div className="flex items-start p-2">
+					<div className="flex-grow">
+						<a href="https://z2njpfrmdu.us-east-2.awsapprunner.com/" target="_blank">
+							<div className="font-semibold mb-0 text-base">Temporary ASP.NET App is available online</div>
+						</a>
+						<div className="text-gray-600 text-sm mb-2">(awsapprunner.com)</div>
+					</div>
+				</div >
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx" target="_blank">
