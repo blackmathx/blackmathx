@@ -10,7 +10,7 @@ export default function HomePage() {
 			<div className="xl:w-[60%] w-[70%] m-auto">
 				<div className="font-[Garamond,serif] text-lg">
 					<p className="mb-3">
-						Programmer, Gamer, Musician, and Cook. Aspiring COBOL programmer purely for the fun of it. 
+						Programmer, Gamer, Musician, and Cook. 
 					</p>
 					<p className="mb-3">
 						I am available in the Midwest and
