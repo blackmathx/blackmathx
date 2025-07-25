@@ -31,7 +31,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://z2njpfrmdu.us-east-2.awsapprunner.com/" target="_blank">
-							<div className="font-semibold mb-0 text-base">Temporary ASP.NET App is available online</div>
+							<div className="font-semibold mb-0 text-base">ASP.NET App on AWS App Runner</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(awsapprunner.com)</div>
 					</div>
