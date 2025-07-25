@@ -8,7 +8,7 @@ export default function HomePage() {
 	return (
 		<>
 			<div className="xl:w-[60%] w-[70%] m-auto">
-				<div className="font-[Garamond,serif] text-lg">
+				<div className="mb-8 w-[800px]">
 					<p className="mb-3">
 						Programmer, Gamer, Musician, and Cook. 
 					</p>
