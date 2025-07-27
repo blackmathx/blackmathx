@@ -23,6 +23,9 @@ export default function HomePage() {
 						theory, Markov chains, inventory models, and models of financial derivatives. 
 						My degree has taught me to be meticulous and detail oriented.
 					</p>
+					<p>
+						blackmathx
+					</p>
 
 				</div>
 				
