@@ -15,8 +15,6 @@ export default function HomePage() {
 					<p className="mb-3">
 						I am available in the Midwest and
 						Southeast United States after a recent layoff, and would be happy to relocate as required.
-						There are no comments on the website yet but feel free to send a message
-						by email at blackmathx at proton.me.
 					</p>
 					<p className="mb-3">
 						I studied Mathematics, Computer Science, and German at Indiana University. 
@@ -25,13 +23,14 @@ export default function HomePage() {
 						theory, Markov chains, inventory models, and models of financial derivatives. 
 						My degree has taught me to be meticulous and detail oriented.
 					</p>
+
 				</div>
 				
 
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://z2njpfrmdu.us-east-2.awsapprunner.com/" target="_blank">
-							<div className="font-semibold mb-0 text-base">ASP.NET App on AWS App Runner</div>
+							<div className="font-semibold mb-0 text-base">An ASP.NET Core webapp on AWS App Runner disguised as another personal website</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(awsapprunner.com)</div>
 					</div>
@@ -41,7 +40,7 @@ export default function HomePage() {
 						<a href="https://github.com/blackmathx" target="_blank">
 							<div className="font-semibold mb-0 text-base">Github Profile</div>
 						</a>
-						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
+						<div className="text-gray-600 text-sm mb-2">(github.com/blackmathx)</div>
 					</div>
 				</div >
 				<div className="flex items-start p-2">
@@ -55,7 +54,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/python-reference" target="_blank">
-							<div className="font-semibold mb-0 text-base">Python Reference at Github</div>
+							<div className="font-semibold mb-0 text-base">Python Reference Project at Github</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
@@ -63,7 +62,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/csharp-reference" target="_blank">
-							<div className="font-semibold mb-0 text-base">C# Reference at Github</div>
+							<div className="font-semibold mb-0 text-base">C# Language Reference at Github</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
@@ -79,7 +78,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/taskpad" target="_blank">
-							<div className="font-semibold mb-0 text-base">Taskpad.dev - Online text editor</div>
+							<div className="font-semibold mb-0 text-base">Taskpad.dev Project On Github (down)</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
