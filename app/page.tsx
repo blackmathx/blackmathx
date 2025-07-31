@@ -48,7 +48,7 @@ export default function HomePage() {
 				</div >
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
-						<a href="#" target="_blank">
+						<a href="#">
 							<div className="font-semibold mb-0 text-base">LinkedIn Profile (this is blank)</div>
 
 						</a>
