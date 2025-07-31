@@ -33,7 +33,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://z2njpfrmdu.us-east-2.awsapprunner.com/" target="_blank">
-							<div className="font-semibold mb-0 text-base">An ASP.NET Core webapp on AWS App Runner disguised as another personal website</div>
+							<div className="font-semibold mb-0 text-base">ASP.NET Core app disguised as another personal website</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(awsapprunner.com)</div>
 					</div>
@@ -48,7 +48,7 @@ export default function HomePage() {
 				</div >
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
-						<a href="https://www.linkedin.com/in/dean-payton-7427b1280/" target="_blank">
+						<a href="#" target="_blank">
 							<div className="font-semibold mb-0 text-base">LinkedIn Profile (blank)</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(linkedin.com)</div>
@@ -81,7 +81,7 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/taskpad" target="_blank">
-							<div className="font-semibold mb-0 text-base">Taskpad.dev Project On Github (down)</div>
+							<div className="font-semibold mb-0 text-base">Taskpad.Dev. Gitub Source Of Angular Project (down)</div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
