@@ -66,7 +66,8 @@ export async function updateSession(request: NextRequest) {
 		request.nextUrl.pathname !== '/photos' &&
 		!request.nextUrl.pathname.startsWith('/photos/') &&
 		request.nextUrl.pathname !== '/rss-feed' &&
-		request.nextUrl.pathname !== '/links'
+		request.nextUrl.pathname !== '/links' &&
+		request.nextUrl.pathname !== '/api/posts'
 
 	) {
 		// no user, potentially respond by redirecting the user to the login page

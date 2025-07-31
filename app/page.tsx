@@ -26,7 +26,6 @@ export default function HomePage() {
 					<p>
 						blackmathx
 					</p>
-
 				</div>
 				
 
@@ -38,6 +37,7 @@ export default function HomePage() {
 						<div className="text-gray-600 text-sm mb-2">(awsapprunner.com)</div>
 					</div>
 				</div >
+
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx" target="_blank">
@@ -49,9 +49,18 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="#" target="_blank">
-							<div className="font-semibold mb-0 text-base">LinkedIn Profile (blank)</div>
+							<div className="font-semibold mb-0 text-base">LinkedIn Profile (this is blank)</div>
+
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(linkedin.com)</div>
+					</div>
+				</div >
+				<div className="flex items-start p-2">
+					<div className="flex-grow">
+						<a href="https://github.com/blackmathx/taskpad" target="_blank">
+							<div className="font-semibold mb-0 text-base">Taskpad.dev Project On Github (down)</div>
+						</a>
+						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
 				</div >
 				<div className="flex items-start p-2">
@@ -73,19 +82,12 @@ export default function HomePage() {
 				<div className="flex items-start p-2">
 					<div className="flex-grow">
 						<a href="https://github.com/blackmathx/java-reference" target="_blank">
-							<div className="font-semibold mb-0 text-base">Java Reference at Github</div>
+							<div className="font-semibold mb-0 text-base">Java Language Reference </div>
 						</a>
 						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
 					</div>
 				</div >
-				<div className="flex items-start p-2">
-					<div className="flex-grow">
-						<a href="https://github.com/blackmathx/taskpad" target="_blank">
-							<div className="font-semibold mb-0 text-base">Taskpad.Dev. Gitub Source Of Angular Project (down)</div>
-						</a>
-						<div className="text-gray-600 text-sm mb-2">(github.com)</div>
-					</div>
-				</div >
+
 			</div>
 		</>
 	)
