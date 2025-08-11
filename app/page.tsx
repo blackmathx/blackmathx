@@ -13,19 +13,17 @@ export default function HomePage() {
 						Programmer, Gamer, Musician, and Cook. 
 					</p>
 					<p className="mb-3">
-						I am available in the Midwest and
-						Southeast United States after a recent layoff, and would be happy to relocate as required.
-					</p>
-					<p className="mb-3">
 						I studied Mathematics, Computer Science, and German at Indiana University. 
 						At Indiana University, my coursework focused heavily on mathematical models. 
 						Highlights of mathematical models include stochastic processes, queueing 
 						theory, Markov chains, inventory models, and models of financial derivatives. 
 						My degree has taught me to be meticulous and detail oriented.
 					</p>
-					<p>
-						blackmathx
+					<p className="mb-3">
+						After a recent layoff, I am available in the Midwest and
+						Southeast United States and would be happy to relocate.
 					</p>
+			
 				</div>
 				
 
