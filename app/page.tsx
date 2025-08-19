@@ -13,8 +13,8 @@ export default function HomePage() {
 						Programmer, Gamer, Musician, and Cook. 
 					</p>
 					<p className="mb-3">
-						I studied Mathematics, Computer Science, and German at Indiana University. 
-						At Indiana University, my coursework focused heavily on mathematical models. 
+						I studied Mathematics and Computer Science at Indiana University where my coursework focused 
+						heavily on mathematical models. 
 						Highlights of mathematical models include stochastic processes, queueing 
 						theory, Markov chains, inventory models, and models of financial derivatives. 
 						My degree has taught me to be meticulous and detail oriented.
