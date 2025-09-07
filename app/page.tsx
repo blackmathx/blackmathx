@@ -14,15 +14,11 @@ export default function HomePage() {
 					</p>
 					<p className="mb-3">
 						I studied Mathematics and Computer Science at Indiana University where my coursework focused 
-						heavily on mathematical models. 
-						Highlights of mathematical models include stochastic processes, queueing 
-						theory, Markov chains, inventory models, and models of financial derivatives. 
-						My degree has taught me to be meticulous and detail oriented.
+						heavily on mathematical models. Highlights of mathematical models include stochastic processes, 
+						queueing theory, Markov chains, inventory models, and models of financial derivatives. My degree 
+						has taught me to be meticulous and detail oriented.
 					</p>
-					<p className="mb-3">
-						After a recent layoff, I am available in the Midwest and
-						Southeast United States and would be happy to relocate.
-					</p>
+
 			
 				</div>
 				
