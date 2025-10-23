@@ -34,6 +34,10 @@ export const news = [
 		title: "The Washington Post",
 		href: "https://www.washingtonpost.com/",
 	},
+	{
+		title: "The Week",
+		href: "https://theweek.com/",
+	}
 ];
 
 export const personalBlogs = [	
