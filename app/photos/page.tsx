@@ -32,9 +32,9 @@ export default function Photos() {
 									width={720}
 									height={480}
 									sizes="(max-width: 640px) 100vw,
-				  					(max-width: 1280px) 50vw,
-				  					(max-width: 1536px) 33vw,
-				  					25vw"
+									(max-width: 1280px) 75vw,
+									(max-width: 1536px) 50vw,
+									50vw"
 								/>
 								{tags && tags.length > 0 && (
 									<div className="absolute bottom-1 left-1 w-full text-white text-base px-2 py-1 flex flex-wrap gap-1 z-10">
@@ -57,33 +57,33 @@ export default function Photos() {
 					onClick={() => setSelectedPhoto(null)}
 				>
 					<div
-						className="relative max-w-4xl max-h-[90vh] overflow-hidden rounded-lg"
+						className="relative w-[90vw] h-[90vh] lg:w-[70vw] lg:h-[70vh] overflow-hidden rounded-lg"
 						onClick={(e) => e.stopPropagation()}
 					>
+						{/* Close button */}
 						<button
 							onClick={() => setSelectedPhoto(null)}
 							className="absolute top-4 right-4 z-10 text-white hover:text-gray-300 text-2xl font-bold bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center"
+							aria-label="Close modal"
 						>
 							×
 						</button>
+
+						{/* Image */}
 						<Image
 							alt={selectedPhoto.alt}
-							className="w-full h-auto max-h-[90vh] object-contain"
 							src={selectedPhoto.image}
-							width={1200}
-							height={800}
+							fill
 							sizes="90vw"
+							className="object-contain"
+							priority
 						/>
-						{selectedPhoto.tags && selectedPhoto.tags.length > 0 && (
-							<div className="absolute bottom-4 left-4 text-white text-lg flex flex-wrap gap-2 z-10">
-								{selectedPhoto.tags.map((tag, i) => (
-									<span key={i} className="bg-black bg-opacity-50 px-2 py-1 rounded">#{tag}</span>
-								))}
-							</div>
-						)}
+
+
 					</div>
 				</div>
 			)}
+
 		</>
 	)
 }
