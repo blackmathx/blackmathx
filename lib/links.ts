@@ -27,6 +27,14 @@ export const techNews = [
 
 export const news = [
 	{
+		title: "NewsNation",
+		href: "https://www.newsnationnow.com/",
+	},
+	{
+		title: "Reuters",
+		href: "https://www.reuters.com/",
+	},
+	{
 		title: "The New York Times",
 		href: "https://www.nytimes.com/",
 	},
@@ -34,10 +42,6 @@ export const news = [
 		title: "The Washington Post",
 		href: "https://www.washingtonpost.com/",
 	},
-	{
-		title: "The Week",
-		href: "https://theweek.com/",
-	}
 ];
 
 export const personalBlogs = [	

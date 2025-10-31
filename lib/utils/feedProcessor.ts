@@ -14,7 +14,7 @@ export function processFeedItems(items: FeedItem[], options?: {
 
 	// Filter out FBI related items
 	processedItems = processedItems.filter(item => 
-		!item.title.toLowerCase().includes('fbi')
+		!item.title.toLowerCase().includes('abcdefghijklmnop')
 	);
 
 	// Filter by keywords if provided
